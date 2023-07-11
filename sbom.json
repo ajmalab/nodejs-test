@@ -1,0 +1,77 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:6b603f2b-e786-4c43-b9b6-5693b232659d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-07-11T17:53:30.248Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.5.2"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "nodejs-test",
+      "type": "application",
+      "bom-ref": "pkg:application/nodejs-test"
+    }
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "",
+      "name": "lodash",
+      "version": "4.17.21",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bf690311ee7b95e713ba568322e3533f2dd1cb880b189e99d4edef13592b81764daec43e2c54c61d5c558dc5cfb35ecb85b65519e74026ff17675b6f8f916f4a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/lodash@4.17.21",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:application/nodejs-test",
+      "dependsOn": [
+        "pkg:npm/lodash@4.17.21"
+      ]
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.21",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json",
+      "comment": "Package file"
+    }
+  ]
+}

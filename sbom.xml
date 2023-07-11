@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:6b603f2b-e786-4c43-b9b6-5693b232659d" version="1">
+  <metadata>
+    <timestamp>2023-07-11T17:53:30.264Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>cyclonedx</vendor>
+        <name>cdxgen</name>
+        <version>8.5.2</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Prabhu Subramanian</name>
+        <email>prabhu@appthreat.com</email>
+      </author>
+    </authors>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:npm/lodash@4.17.21">
+      <publisher/>
+      <group/>
+      <name>lodash</name>
+      <version>4.17.21</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">bf690311ee7b95e713ba568322e3533f2dd1cb880b189e99d4edef13592b81764daec43e2c54c61d5c558dc5cfb35ecb85b65519e74026ff17675b6f8f916f4a</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/lodash@4.17.21</purl>
+    </component>
+  </components>
+  <externalReferences>
+    <reference type="other">
+      <url>.</url>
+      <comment>Base path</comment>
+    </reference>
+    <reference type="other">
+      <url>/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json</url>
+      <comment>Package file</comment>
+    </reference>
+  </externalReferences>
+  <dependencies>
+    <dependency ref="pkg:application/nodejs-test">
+      <dependency ref="pkg:npm/lodash@4.17.21"/>
+    </dependency>
+    <dependency ref="pkg:npm/lodash@4.17.21"/>
+  </dependencies>
+</bom>
