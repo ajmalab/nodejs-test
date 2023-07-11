@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:1fdad740-a9d2-4114-a433-ed4a7550880e",
+  "serialNumber": "urn:uuid:def1dee4-fbbf-4d5e-86d9-091b90489c57",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-07-11T17:55:17.769Z",
+    "timestamp": "2023-07-11T17:59:04.755Z",
     "tools": [
       {
         "vendor": "cyclonedx",
         "name": "cdxgen",
-        "version": "8.5.2"
+        "version": "8.6.2"
       }
     ],
     "authors": [
@@ -27,6 +27,7 @@
   },
   "components": [
     {
+      "author": "",
       "publisher": "",
       "group": "adobe",
       "name": "css-tools",
@@ -50,6 +51,31 @@
       ]
     },
     {
+      "author": "",
+      "publisher": "",
+      "group": "ampproject",
+      "name": "remapping",
+      "version": "2.2.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "945323253ac52f78fb2fdc81c7061f0aada4eaaab01f2cee525fd706789fefc3d64c96322ff75fa30407584deca7a53a673a968a22199e94cc3bdeb38648f0b6"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ampproject/remapping@2.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ampproject/remapping@2.2.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
       "publisher": "",
       "group": "babel",
       "name": "code-frame",
@@ -73,6 +99,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "babel",
       "name": "helper-validator-identifier",
@@ -96,6 +123,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "babel",
       "name": "highlight",
@@ -119,6 +147,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "ansi-styles",
@@ -142,6 +171,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "chalk",
@@ -165,6 +195,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "color-convert",
@@ -188,6 +219,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "color-name",
@@ -211,6 +243,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "escape-string-regexp",
@@ -234,6 +267,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "has-flag",
@@ -257,6 +291,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "supports-color",
@@ -280,6 +315,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "babel",
       "name": "runtime",
@@ -303,6 +339,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "jest",
       "name": "expect-utils",
@@ -326,6 +363,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "jest",
       "name": "schemas",
@@ -349,6 +387,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "jest",
       "name": "types",
@@ -372,6 +411,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "chalk",
@@ -395,6 +435,151 @@
       ]
     },
     {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "gen-mapping",
+      "version": "0.3.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1cb85258e2d18bcef9ce38cc1bfafe36fd28096f2e9866f4060121c97ddd0d7dde83066d07c3ea2e78f3df279db7c4794ad06bcdc838681a6787c500f43d41a1"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/gen-mapping@0.3.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/gen-mapping@0.3.3",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "resolve-uri",
+      "version": "3.1.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1769ac95aded69df8c7e1b79709abb2d25dc76e74a4d6095614830ea92c538e1d24ed6658fa496358029f8086ea8b9967413b65f984facb72ef1c54ff1fcb6f3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/resolve-uri@3.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/resolve-uri@3.1.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "set-array",
+      "version": "1.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c6792c7ae3400ccd20b766ecf81be13b4a7bf0c93beb662765db2ecc5574d7c3681b54a3d52090be94aa6bb5d46936a6e6f0066ac00157da9701230a9c533033"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/set-array@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/set-array@1.1.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "sourcemap-codec",
+      "version": "1.4.15",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "785dabc4246e9442971d34620eb0f2e9eacc616a8dc382cf750f14400e21baec5a42c55e44f165da833ca031b130584951665ff4c7292ed25ab030d96ff0697a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/sourcemap-codec@1.4.15",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/sourcemap-codec@1.4.15",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "trace-mapping",
+      "version": "0.3.18",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c3e9e2258ccc1dd77b5127621f653af3af67aa10f69db7d95cd0f9629f77a886c49a70cd93b3c3e3ca3e61c851569ccc53b33a8d509b7a74d1ecf03514b43da4"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/trace-mapping@0.3.18",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/trace-mapping@0.3.18",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "jridgewell",
+      "name": "sourcemap-codec",
+      "version": "1.4.14",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5cf4891d69a2dfde1fb94bb30e71b3d7088aa967e8d725de70740c45fda5ea1ced4cefa73ebbbae7c0320e781a05eee2b08c44911b0f47715987eb3b8956b853"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/jridgewell/sourcemap-codec@1.4.14",
+      "type": "library",
+      "bom-ref": "pkg:npm/jridgewell/sourcemap-codec@1.4.14",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
       "publisher": "",
       "group": "sinclair",
       "name": "typebox",
@@ -418,6 +603,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "testing-library",
       "name": "jest-dom",
@@ -441,6 +627,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "ansi-styles",
@@ -464,6 +651,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "aria-query",
@@ -487,6 +675,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "braces",
@@ -510,6 +699,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "chalk",
@@ -533,6 +723,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "ci-info",
@@ -556,6 +747,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "color-convert",
@@ -579,6 +771,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "color-name",
@@ -602,6 +795,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "css.escape",
@@ -625,6 +819,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "dequal",
@@ -648,6 +843,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "diff-sequences",
@@ -671,6 +867,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "dom-accessibility-api",
@@ -694,6 +891,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "escape-string-regexp",
@@ -717,6 +915,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "expect",
@@ -740,6 +939,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "fill-range",
@@ -763,6 +963,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "graceful-fs",
@@ -786,6 +987,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "has-flag",
@@ -809,6 +1011,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "indent-string",
@@ -832,6 +1035,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "is-number",
@@ -855,6 +1059,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "jest-diff",
@@ -878,6 +1083,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "jest-get-type",
@@ -901,6 +1107,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "jest-matcher-utils",
@@ -924,6 +1131,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "jest-message-util",
@@ -947,6 +1155,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "jest-util",
@@ -970,6 +1179,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "js-tokens",
@@ -993,6 +1203,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "lodash",
@@ -1016,6 +1227,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "micromatch",
@@ -1039,6 +1251,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "min-indent",
@@ -1062,6 +1275,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "picomatch",
@@ -1085,6 +1299,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "pretty-format",
@@ -1108,6 +1323,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "ansi-styles",
@@ -1131,6 +1347,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "react-is",
@@ -1154,6 +1371,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "redent",
@@ -1177,6 +1395,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "regenerator-runtime",
@@ -1200,6 +1419,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "slash",
@@ -1223,6 +1443,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "stack-utils",
@@ -1246,6 +1467,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "strip-indent",
@@ -1269,6 +1491,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "supports-color",
@@ -1292,6 +1515,7 @@
       ]
     },
     {
+      "author": "",
       "publisher": "",
       "group": "",
       "name": "to-regex-range",
@@ -1319,12 +1543,17 @@
     {
       "ref": "pkg:application/nodejs-test",
       "dependsOn": [
+        "pkg:npm/@ampproject/remapping@2.2.1",
         "pkg:npm/@testing-library/jest-dom@5.16.5",
         "pkg:npm/lodash@4.17.21"
       ]
     },
     {
       "ref": "pkg:npm/@adobe/css-tools@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@ampproject/remapping@2.2.1",
       "dependsOn": []
     },
     {
@@ -1395,6 +1624,32 @@
     },
     {
       "ref": "pkg:npm/chalk@4.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/gen-mapping@0.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/resolve-uri@3.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/set-array@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/sourcemap-codec@1.4.15",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/trace-mapping@0.3.18",
+      "dependsOn": [
+        "pkg:npm/@jridgewell/sourcemap-codec@1.4.14"
+      ]
+    },
+    {
+      "ref": "pkg:npm/@jridgewell/sourcemap-codec@1.4.14",
       "dependsOn": []
     },
     {

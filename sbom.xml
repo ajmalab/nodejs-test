@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:1fdad740-a9d2-4114-a433-ed4a7550880e" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:def1dee4-fbbf-4d5e-86d9-091b90489c57" version="1">
   <metadata>
-    <timestamp>2023-07-11T17:55:17.778Z</timestamp>
+    <timestamp>2023-07-11T17:59:04.765Z</timestamp>
     <tools>
       <tool>
         <vendor>cyclonedx</vendor>
         <name>cdxgen</name>
-        <version>8.5.2</version>
+        <version>8.6.2</version>
       </tool>
     </tools>
     <authors>
@@ -18,6 +18,7 @@
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:npm/adobe/css-tools@4.2.0">
+      <author/>
       <publisher/>
       <group>adobe</group>
       <name>css-tools</name>
@@ -29,7 +30,21 @@
       <licenses/>
       <purl>pkg:npm/adobe/css-tools@4.2.0</purl>
     </component>
+    <component type="library" bom-ref="pkg:npm/ampproject/remapping@2.2.1">
+      <author/>
+      <publisher/>
+      <group>ampproject</group>
+      <name>remapping</name>
+      <version>2.2.1</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">945323253ac52f78fb2fdc81c7061f0aada4eaaab01f2cee525fd706789fefc3d64c96322ff75fa30407584deca7a53a673a968a22199e94cc3bdeb38648f0b6</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/ampproject/remapping@2.2.1</purl>
+    </component>
     <component type="library" bom-ref="pkg:npm/babel/code-frame@7.22.5">
+      <author/>
       <publisher/>
       <group>babel</group>
       <name>code-frame</name>
@@ -42,6 +57,7 @@
       <purl>pkg:npm/babel/code-frame@7.22.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/babel/helper-validator-identifier@7.22.5">
+      <author/>
       <publisher/>
       <group>babel</group>
       <name>helper-validator-identifier</name>
@@ -54,6 +70,7 @@
       <purl>pkg:npm/babel/helper-validator-identifier@7.22.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/babel/highlight@7.22.5">
+      <author/>
       <publisher/>
       <group>babel</group>
       <name>highlight</name>
@@ -66,6 +83,7 @@
       <purl>pkg:npm/babel/highlight@7.22.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/ansi-styles@3.2.1">
+      <author/>
       <publisher/>
       <group/>
       <name>ansi-styles</name>
@@ -78,6 +96,7 @@
       <purl>pkg:npm/ansi-styles@3.2.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/chalk@2.4.2">
+      <author/>
       <publisher/>
       <group/>
       <name>chalk</name>
@@ -90,6 +109,7 @@
       <purl>pkg:npm/chalk@2.4.2</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/color-convert@1.9.3">
+      <author/>
       <publisher/>
       <group/>
       <name>color-convert</name>
@@ -102,6 +122,7 @@
       <purl>pkg:npm/color-convert@1.9.3</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/color-name@1.1.3">
+      <author/>
       <publisher/>
       <group/>
       <name>color-name</name>
@@ -114,6 +135,7 @@
       <purl>pkg:npm/color-name@1.1.3</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/escape-string-regexp@1.0.5">
+      <author/>
       <publisher/>
       <group/>
       <name>escape-string-regexp</name>
@@ -126,6 +148,7 @@
       <purl>pkg:npm/escape-string-regexp@1.0.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/has-flag@3.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>has-flag</name>
@@ -138,6 +161,7 @@
       <purl>pkg:npm/has-flag@3.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/supports-color@5.5.0">
+      <author/>
       <publisher/>
       <group/>
       <name>supports-color</name>
@@ -150,6 +174,7 @@
       <purl>pkg:npm/supports-color@5.5.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/babel/runtime@7.22.6">
+      <author/>
       <publisher/>
       <group>babel</group>
       <name>runtime</name>
@@ -162,6 +187,7 @@
       <purl>pkg:npm/babel/runtime@7.22.6</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest/expect-utils@29.6.1">
+      <author/>
       <publisher/>
       <group>jest</group>
       <name>expect-utils</name>
@@ -174,6 +200,7 @@
       <purl>pkg:npm/jest/expect-utils@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest/schemas@29.6.0">
+      <author/>
       <publisher/>
       <group>jest</group>
       <name>schemas</name>
@@ -186,6 +213,7 @@
       <purl>pkg:npm/jest/schemas@29.6.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest/types@29.6.1">
+      <author/>
       <publisher/>
       <group>jest</group>
       <name>types</name>
@@ -198,6 +226,7 @@
       <purl>pkg:npm/jest/types@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/chalk@4.1.2">
+      <author/>
       <publisher/>
       <group/>
       <name>chalk</name>
@@ -209,7 +238,86 @@
       <licenses/>
       <purl>pkg:npm/chalk@4.1.2</purl>
     </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/gen-mapping@0.3.3">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>gen-mapping</name>
+      <version>0.3.3</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">1cb85258e2d18bcef9ce38cc1bfafe36fd28096f2e9866f4060121c97ddd0d7dde83066d07c3ea2e78f3df279db7c4794ad06bcdc838681a6787c500f43d41a1</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/gen-mapping@0.3.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/resolve-uri@3.1.0">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>resolve-uri</name>
+      <version>3.1.0</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">1769ac95aded69df8c7e1b79709abb2d25dc76e74a4d6095614830ea92c538e1d24ed6658fa496358029f8086ea8b9967413b65f984facb72ef1c54ff1fcb6f3</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/resolve-uri@3.1.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/set-array@1.1.2">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>set-array</name>
+      <version>1.1.2</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">c6792c7ae3400ccd20b766ecf81be13b4a7bf0c93beb662765db2ecc5574d7c3681b54a3d52090be94aa6bb5d46936a6e6f0066ac00157da9701230a9c533033</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/set-array@1.1.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/sourcemap-codec@1.4.15">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>sourcemap-codec</name>
+      <version>1.4.15</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">785dabc4246e9442971d34620eb0f2e9eacc616a8dc382cf750f14400e21baec5a42c55e44f165da833ca031b130584951665ff4c7292ed25ab030d96ff0697a</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/sourcemap-codec@1.4.15</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/trace-mapping@0.3.18">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>trace-mapping</name>
+      <version>0.3.18</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">c3e9e2258ccc1dd77b5127621f653af3af67aa10f69db7d95cd0f9629f77a886c49a70cd93b3c3e3ca3e61c851569ccc53b33a8d509b7a74d1ecf03514b43da4</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/trace-mapping@0.3.18</purl>
+    </component>
+    <component type="library" bom-ref="pkg:npm/jridgewell/sourcemap-codec@1.4.14">
+      <author/>
+      <publisher/>
+      <group>jridgewell</group>
+      <name>sourcemap-codec</name>
+      <version>1.4.14</version>
+      <description/>
+      <hashes>
+        <hash alg="SHA-512">5cf4891d69a2dfde1fb94bb30e71b3d7088aa967e8d725de70740c45fda5ea1ced4cefa73ebbbae7c0320e781a05eee2b08c44911b0f47715987eb3b8956b853</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:npm/jridgewell/sourcemap-codec@1.4.14</purl>
+    </component>
     <component type="library" bom-ref="pkg:npm/sinclair/typebox@0.27.8">
+      <author/>
       <publisher/>
       <group>sinclair</group>
       <name>typebox</name>
@@ -222,6 +330,7 @@
       <purl>pkg:npm/sinclair/typebox@0.27.8</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/testing-library/jest-dom@5.16.5">
+      <author/>
       <publisher/>
       <group>testing-library</group>
       <name>jest-dom</name>
@@ -234,6 +343,7 @@
       <purl>pkg:npm/testing-library/jest-dom@5.16.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/ansi-styles@4.3.0">
+      <author/>
       <publisher/>
       <group/>
       <name>ansi-styles</name>
@@ -246,6 +356,7 @@
       <purl>pkg:npm/ansi-styles@4.3.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/aria-query@5.3.0">
+      <author/>
       <publisher/>
       <group/>
       <name>aria-query</name>
@@ -258,6 +369,7 @@
       <purl>pkg:npm/aria-query@5.3.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/braces@3.0.2">
+      <author/>
       <publisher/>
       <group/>
       <name>braces</name>
@@ -270,6 +382,7 @@
       <purl>pkg:npm/braces@3.0.2</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/chalk@3.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>chalk</name>
@@ -282,6 +395,7 @@
       <purl>pkg:npm/chalk@3.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/ci-info@3.8.0">
+      <author/>
       <publisher/>
       <group/>
       <name>ci-info</name>
@@ -294,6 +408,7 @@
       <purl>pkg:npm/ci-info@3.8.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/color-convert@2.0.1">
+      <author/>
       <publisher/>
       <group/>
       <name>color-convert</name>
@@ -306,6 +421,7 @@
       <purl>pkg:npm/color-convert@2.0.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/color-name@1.1.4">
+      <author/>
       <publisher/>
       <group/>
       <name>color-name</name>
@@ -318,6 +434,7 @@
       <purl>pkg:npm/color-name@1.1.4</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/css.escape@1.5.1">
+      <author/>
       <publisher/>
       <group/>
       <name>css.escape</name>
@@ -330,6 +447,7 @@
       <purl>pkg:npm/css.escape@1.5.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/dequal@2.0.3">
+      <author/>
       <publisher/>
       <group/>
       <name>dequal</name>
@@ -342,6 +460,7 @@
       <purl>pkg:npm/dequal@2.0.3</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/diff-sequences@29.4.3">
+      <author/>
       <publisher/>
       <group/>
       <name>diff-sequences</name>
@@ -354,6 +473,7 @@
       <purl>pkg:npm/diff-sequences@29.4.3</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/dom-accessibility-api@0.5.16">
+      <author/>
       <publisher/>
       <group/>
       <name>dom-accessibility-api</name>
@@ -366,6 +486,7 @@
       <purl>pkg:npm/dom-accessibility-api@0.5.16</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/escape-string-regexp@2.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>escape-string-regexp</name>
@@ -378,6 +499,7 @@
       <purl>pkg:npm/escape-string-regexp@2.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/expect@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>expect</name>
@@ -390,6 +512,7 @@
       <purl>pkg:npm/expect@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/fill-range@7.0.1">
+      <author/>
       <publisher/>
       <group/>
       <name>fill-range</name>
@@ -402,6 +525,7 @@
       <purl>pkg:npm/fill-range@7.0.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/graceful-fs@4.2.11">
+      <author/>
       <publisher/>
       <group/>
       <name>graceful-fs</name>
@@ -414,6 +538,7 @@
       <purl>pkg:npm/graceful-fs@4.2.11</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/has-flag@4.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>has-flag</name>
@@ -426,6 +551,7 @@
       <purl>pkg:npm/has-flag@4.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/indent-string@4.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>indent-string</name>
@@ -438,6 +564,7 @@
       <purl>pkg:npm/indent-string@4.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/is-number@7.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>is-number</name>
@@ -450,6 +577,7 @@
       <purl>pkg:npm/is-number@7.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest-diff@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>jest-diff</name>
@@ -462,6 +590,7 @@
       <purl>pkg:npm/jest-diff@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest-get-type@29.4.3">
+      <author/>
       <publisher/>
       <group/>
       <name>jest-get-type</name>
@@ -474,6 +603,7 @@
       <purl>pkg:npm/jest-get-type@29.4.3</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest-matcher-utils@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>jest-matcher-utils</name>
@@ -486,6 +616,7 @@
       <purl>pkg:npm/jest-matcher-utils@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest-message-util@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>jest-message-util</name>
@@ -498,6 +629,7 @@
       <purl>pkg:npm/jest-message-util@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/jest-util@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>jest-util</name>
@@ -510,6 +642,7 @@
       <purl>pkg:npm/jest-util@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/js-tokens@4.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>js-tokens</name>
@@ -522,6 +655,7 @@
       <purl>pkg:npm/js-tokens@4.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/lodash@4.17.21">
+      <author/>
       <publisher/>
       <group/>
       <name>lodash</name>
@@ -534,6 +668,7 @@
       <purl>pkg:npm/lodash@4.17.21</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/micromatch@4.0.5">
+      <author/>
       <publisher/>
       <group/>
       <name>micromatch</name>
@@ -546,6 +681,7 @@
       <purl>pkg:npm/micromatch@4.0.5</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/min-indent@1.0.1">
+      <author/>
       <publisher/>
       <group/>
       <name>min-indent</name>
@@ -558,6 +694,7 @@
       <purl>pkg:npm/min-indent@1.0.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/picomatch@2.3.1">
+      <author/>
       <publisher/>
       <group/>
       <name>picomatch</name>
@@ -570,6 +707,7 @@
       <purl>pkg:npm/picomatch@2.3.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/pretty-format@29.6.1">
+      <author/>
       <publisher/>
       <group/>
       <name>pretty-format</name>
@@ -582,6 +720,7 @@
       <purl>pkg:npm/pretty-format@29.6.1</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/ansi-styles@5.2.0">
+      <author/>
       <publisher/>
       <group/>
       <name>ansi-styles</name>
@@ -594,6 +733,7 @@
       <purl>pkg:npm/ansi-styles@5.2.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/react-is@18.2.0">
+      <author/>
       <publisher/>
       <group/>
       <name>react-is</name>
@@ -606,6 +746,7 @@
       <purl>pkg:npm/react-is@18.2.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/redent@3.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>redent</name>
@@ -618,6 +759,7 @@
       <purl>pkg:npm/redent@3.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/regenerator-runtime@0.13.11">
+      <author/>
       <publisher/>
       <group/>
       <name>regenerator-runtime</name>
@@ -630,6 +772,7 @@
       <purl>pkg:npm/regenerator-runtime@0.13.11</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/slash@3.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>slash</name>
@@ -642,6 +785,7 @@
       <purl>pkg:npm/slash@3.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/stack-utils@2.0.6">
+      <author/>
       <publisher/>
       <group/>
       <name>stack-utils</name>
@@ -654,6 +798,7 @@
       <purl>pkg:npm/stack-utils@2.0.6</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/strip-indent@3.0.0">
+      <author/>
       <publisher/>
       <group/>
       <name>strip-indent</name>
@@ -666,6 +811,7 @@
       <purl>pkg:npm/strip-indent@3.0.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/supports-color@7.2.0">
+      <author/>
       <publisher/>
       <group/>
       <name>supports-color</name>
@@ -678,6 +824,7 @@
       <purl>pkg:npm/supports-color@7.2.0</purl>
     </component>
     <component type="library" bom-ref="pkg:npm/to-regex-range@5.0.1">
+      <author/>
       <publisher/>
       <group/>
       <name>to-regex-range</name>
@@ -705,6 +852,7 @@
       <dependency ref="pkg:npm/lodash@4.17.21"/>
     </dependency>
     <dependency ref="pkg:npm/@adobe/css-tools@4.2.0"/>
+    <dependency ref="pkg:npm/@ampproject/remapping@2.2.1"/>
     <dependency ref="pkg:npm/@babel/code-frame@7.22.5"/>
     <dependency ref="pkg:npm/@babel/helper-validator-identifier@7.22.5"/>
     <dependency ref="pkg:npm/@babel/highlight@7.22.5">
@@ -724,6 +872,14 @@
       <dependency ref="pkg:npm/chalk@4.1.2"/>
     </dependency>
     <dependency ref="pkg:npm/chalk@4.1.2"/>
+    <dependency ref="pkg:npm/@jridgewell/gen-mapping@0.3.3"/>
+    <dependency ref="pkg:npm/@jridgewell/resolve-uri@3.1.0"/>
+    <dependency ref="pkg:npm/@jridgewell/set-array@1.1.2"/>
+    <dependency ref="pkg:npm/@jridgewell/sourcemap-codec@1.4.15"/>
+    <dependency ref="pkg:npm/@jridgewell/trace-mapping@0.3.18">
+      <dependency ref="pkg:npm/@jridgewell/sourcemap-codec@1.4.14"/>
+    </dependency>
+    <dependency ref="pkg:npm/@jridgewell/sourcemap-codec@1.4.14"/>
     <dependency ref="pkg:npm/@sinclair/typebox@0.27.8"/>
     <dependency ref="pkg:npm/@testing-library/jest-dom@5.16.5"/>
     <dependency ref="pkg:npm/@types/istanbul-lib-coverage@2.0.4"/>
