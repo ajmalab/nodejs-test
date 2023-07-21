@@ -1,0 +1,2101 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b8cbbe90-2265-4b7d-93d8-04531d82390f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-07-21T15:53:15.366Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.2.3",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.2.3",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.2.3"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "@ajmalab/nodejs-test",
+      "version": "1.0.0",
+      "type": "application",
+      "bom-ref": "pkg:npm/@ajmalab/nodejs-test@1.0.0",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "asap",
+      "version": "2.0.6",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0521d680348088ab39d28d917bca69be9dec7951d7491338e1c752b13f457cd1145192ce196542b2259a44f58cd599e7fa6a99d4e7d5677cf70d61334a9ee144"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/asap@2.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/asap@2.0.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "asynckit",
+      "version": "0.4.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "39e8bd387e2d461d18a94dc6c615fbf5d33f9b0560bdb64969235a464f9bb21923d12e5c7c772061a92b7818eb1f06ad5ca6f3f88a087582f1aca8a6d8c8d6d1"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/asynckit@0.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/asynckit@0.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "basic-auth",
+      "version": "2.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "345f9ea6e11d9d4615946ba16b16dbabe76f26db702e7198f988b195794c1392a94395b70a75c0e5c5539de63748f6cf0d191c8cc6e27ebc261587029603997a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/basic-auth@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/basic-auth@2.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "call-bind",
+      "version": "1.0.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ecef856c28a1ac1e5619b1587ac72dc264ca69eeab3a22339b3d6272b79627ed1a03b2c97eeaa112ca364fd9dca5c16dccc42dcd77f64061ae7962464d8b2aac"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/call-bind@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/call-bind@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1503783117ee25e1dfedc05b04c2455e12920eafb690002b06599106f72f144e410751d9297b5214048385d973f73398c3187c943767be630e7bffb971da0476"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/combined-stream@1.0.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/combined-stream@1.0.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "commander",
+      "version": "2.20.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1a956498cf2f176bd05248f62ef6660f7e49c5e24e2c2c09f5c524ba0ca4da7ba16efdfe989be92d862dfb4f9448cc44fa88fe7b2fe52449e1670ef9c7f38c71"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/commander@2.20.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/commander@2.20.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "component-emitter",
+      "version": "1.3.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45ddec7ba401fac3b54f0a998ec710aeeae910f21f3b4ff26274a29fa43fac3de63aeb47bd4ac202126e6f7afdd2e35bf9211206e134418a01f7461d7dab6c46"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/component-emitter@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/component-emitter@1.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "cookiejar",
+      "version": "2.1.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2c3c7aa07acaf8f8732ca254f63e52eff6378ccfe6507bc3fc3788d56426267eb9da23c2e58e130730bd97ee4e30e5e5c934c0f9299550f9b41d0530a43e49ab"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/cookiejar@2.1.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookiejar@2.1.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "debug",
+      "version": "2.6.9",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6c2ec496b7496899cf6c03fed44a2d62fa99b1bdde725e708ba05f8ba0494d470da30a7a72fb298348d7ce74532838e6fc4ec076014155e00f54c35c286b0730"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/debug@2.6.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "672483ecd7fdd5a2c1d11c4be0a1ab28705797b11db350c098475ca156b05e72c3ed20e1a4d82db88236680920edaed04b8d63c4f499d7ba7855d1a730793731"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/delayed-stream@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/delayed-stream@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "depd",
+      "version": "2.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "83b9c7e8fe9dc838a8268800006a6b1a90ad5489898693e4feba02cdd6f77c887ad7fb3f9cfb1f47aa27c8cc2408047f3a50b7c810b49444af52840402cb08af"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/depd@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/depd@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "dezalgo",
+      "version": "1.0.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ad748fd1b7fee67d10a27b1bf925557cd7c8b2298ee0712d9a72293c763c435502cca950ac331f7686ebf2724e3ac460582c8c46a792050ce659432aef3bd58a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/dezalgo@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/dezalgo@1.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ee-first",
+      "version": "1.1.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "58cc26f4b851528f9651a44dfaf46e113a86f3d22066985548d91d16079beac4bf1383ab0c837bb78f0201ec121d773a0bc95e7c3f0a29faf9bd8eb56eb425a3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ee-first@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ee-first@1.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "eventsource",
+      "version": "1.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c401f7cd68603b6ff72889e210a60fafca65352ce518834e52a623d26d2eec007cd62470f1bff713bdd6e80b94fba9252db6921666676844d0da55cf7c0c9dac"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/eventsource@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/eventsource@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "fast-safe-stringify",
+      "version": "2.1.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5be28973676620b94fa650ff1f82bd97d2dc00701f3ed3fa058f38b952d743a12f733f4b720df7636cf52156e54fac5d639e0f5d854712ffb45a9abc228eb390"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/fast-safe-stringify@2.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-safe-stringify@2.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "form-data",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1131249521a2e6dd10319ba25e803f43abdc9f170b40fe6f76e812a6e0328ba4951a2d9c94f3e9fb180486e31a1c2fb31a09f7d4a776df95b7e5fec7ca491ac3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/form-data@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/form-data@4.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "formidable",
+      "version": "2.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "08cdc6b89e7b512d3a9a5a50e3b61cba7b9467d8e99bc571f8fd821adda3ec7a6090a64efc32584340686e29bc1ba3c54262b994ea8e39d5176e853e87bdc0e2"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/formidable@2.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/formidable@2.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "function-bind",
+      "version": "1.1.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c88a2f033317e3db05f18979f1f482589e6cbd22ee6a26cfc5740914b98139b4ee0abd0c7f52a23e8a4633d3621638980426df69ad8587a6eb790e803554c8d0"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/function-bind@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/function-bind@1.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "get-intrinsic",
+      "version": "1.2.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d8372cc9f00197e8151c47c239a4eb5a0cadfad6fa31210698aabe908e47c0b6c86208e098c715f0a438d6e68acf5c7151c9fdb49b6015b4141157046ddd0563"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/get-intrinsic@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/get-intrinsic@1.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "has",
+      "version": "1.0.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7f676f3b4554e8e7a3ed1916246ade8636f33008c5a79fd528fa79b53a56215e091c764ad7f0716c546d7ffb220364964ded3d71a0e656d618cd61086c14b8cf"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/has@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/has@1.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "has-proto",
+      "version": "1.0.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "eea13e88ff8ef9b805f5c944e7e528045cc4eb99a5062563ded282ae5350d0e8309b4063a53fe02b84a52d80ccc9b0e1e48dd30932a73cf6b4a0c1bb24362b86"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/has-proto@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/has-proto@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "has-symbols",
+      "version": "1.0.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9772c2b85e8c8033704c32a47581848a1623b79a513db120e3aaed9669d23e551b82607c2ce22b2896d86050526e73da25ec4c2ad88f3bc8667918d1cf64ddf8"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/has-symbols@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/has-symbols@1.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "hexoid",
+      "version": "1.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4052d5d2d69640e66dbc844801d04285eb26a2066bb6e5ef556b051d94e4d9253e6a7b29a99daf327a0b83b204d7e524d7a375f403e273506e17c6c2f1cda6e6"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/hexoid@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/hexoid@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "inherits",
+      "version": "2.0.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/inherits@2.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/inherits@2.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "lru-cache",
+      "version": "6.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "268e9d274e029928eece7c09492de951e5a677f1f47df4e59175e0c198be7aad540a6a90c0287e78bb183980b063df758b615a878875044302c78a938466ec88"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/lru-cache@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/lru-cache@6.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "methods",
+      "version": "1.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "89c9401de36a366ebccc5b676747bed4bdb250876fccda1ab8a53858103756f1ffbcf162785eea7d197051953e0c0f4ff5b3d7212f74ba5c68528087db7b15db"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/methods@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/methods@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mime",
+      "version": "2.6.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5123e431e113df5ace3226abb013481d928b1a0bca73f2eb8e87c09c194eb6d7f96a346faa2440f10b1e9db728a1cb4ae9de93b3a6aa657040f976e42ad86242"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mime@2.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime@2.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0f538b95edd625bed589c70c311c3d0fba285536213b4f201b439496c43081f66518bce82ba103b061040e28f27c0886c4fb51135653a82b5502da7537818be"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-db@1.52.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "64363e6cf9b9cd34c5f98a42ac053d9cad148080983d3d10b53d4d65616fe2cfbe4cd91c815693d20ebee11dae238323423cf2b07075cf1b962f9d21cda7978b"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/mime-types@2.1.35",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-types@2.1.35",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "morgan",
+      "version": "1.10.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "01b7a0055238b21e8497ed60370bc3e5821c93b9d2037eb0783ef1bc8c46e229fcd23fd4a0af001066969e7cfcbf51b1a2730296d9a536ce5929b1af97d6f55d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/morgan@1.10.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/morgan@1.10.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ms",
+      "version": "2.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4e9a7ad0fe885090d3b8eabfe59f1c76c93326e8dfc2a7ce4e4af02308fb211212a679099d3e92c89e0f08f9c63281630bd75d85a979295218b40b7dee2c74e4"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ms@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "object-inspect",
+      "version": "1.12.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "81e52f764edcf9e8b330d503911a56d7027081f3a239e1dbc4147f84b5cad5a4face65523b48ec41cb3b7e3e8c1b0f3d8c2fdc8c67cb70d3abb4c62d1aa9bcd6"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/object-inspect@1.12.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/object-inspect@1.12.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "on-finished",
+      "version": "2.3.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8a4a9d906000c9ffd7fe03e15c6bdf800cad0d9b436ebf9b90d509d0df61e4c23f7667600acde5ea1a07adc52fe35b1129ec378c8c2ba78a900d788af7d52dc3"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/on-finished@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/on-finished@2.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "on-headers",
+      "version": "1.0.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a59004f8524ba32213cad76a2b4539b3e148a6337424fdcecc58bfbbc471f84579fd6f894d61971bcc45cdebc4ec08c17c3a87bfff2f2fca90b088479ea464ac"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/on-headers@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/on-headers@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "once",
+      "version": "1.4.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "94d689808fb643951140191c7042874d038f697754c67659125413658d0c15402e684a9ed44f8dcaf81dcff688c8d8ba67d3333b976fd47f27e7cfc610ba77fb"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/once@1.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/once@1.4.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "qs",
+      "version": "6.11.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b43348cf6d9a073083c4bb551fef959d37f3c657de2b909baa88694aaa49823d5683f7106d2b4d033dcdbaa0ace6f57ea6306c2b8c78a4df4795587badc61188"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/qs@6.11.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/qs@6.11.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "readable-stream",
+      "version": "3.6.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f6efec9e20ab6370f959db04447cc71381b66025eaa06e454c7522082e1221bafa5dc2d9058d39c9af442a361e93d3b9c4e0308c6abed497460404bb43d49ca0"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/readable-stream@3.6.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/readable-stream@3.6.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "19dd94641243917958ec66c9c5fb04f3f9ef2a45045351b7f1cd6c88de903fa6bd3d3f4c98707c1a7a6c71298c252a05f0b388aedf2e77fc0fb688f2b381bafa"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/safe-buffer@5.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-buffer@5.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "semver",
+      "version": "7.5.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d5b09211257a3effa2db51efa71a770f1fa9483f2520fb7cb958d1af1014b7f9dbb3061cfad2ba6366ed8942e3778f9f9ead793d7fa7a900c2ece7eded693070"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/semver@7.5.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/semver@7.5.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "side-channel",
+      "version": "1.0.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ab95cfcada85108287906762308ad8d749af2d1be7421e36ffe1a8065156ddbd8b5cb136c71269645766f78c1ed016a85774702721aa839c12edea714efd19bf"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/side-channel@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/side-channel@1.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "smee-client",
+      "version": "1.2.3",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b83ad4f2ef7f2e7eda457cb318781568d512f289c7659792c108c276432848bed4f39c48fa5f98d8d82389b90c240c97916ec801b6fcaf0f513072234ba940c0"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/smee-client@1.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/smee-client@1.2.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "string_decoder",
+      "version": "1.3.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "864457f14d568c915df0bb03276c90ff0596c5aa2912c0015355df90cf00fa3d3ef392401a9a6dd7a72bd56860e8a21b6f8a2453a32a97a04e8febaea7fc0a78"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/string_decoder@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/string_decoder@1.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-buffer@5.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "superagent",
+      "version": "7.1.5",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1d06321ae0d1146999e86342e21ab67f7eca9ec63d2ebd3f47599aacd65380cc1e54340b4cb249e83190f538ffc5556ce47127a29f443264dbcb06f93f7d1aab"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/superagent@7.1.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/superagent@7.1.5",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "debug",
+      "version": "4.3.4",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d15851ee494dde0ed4093ef9cd63b25c91eb758f4b793ae3ac1733cfcec7a40f9d9997ca947c520f122b305ea22f1d61951ce817fbb1bfbc234d85e870c5f91"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/debug@4.3.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.3.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "ms",
+      "version": "2.1.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0690fc7e56332d980e8c5f6ee80381411442c50996784b85ea7863970afebcb53fa36f7be4fd1c9a2963f43d32b25ad98b48cd1bf9a7544c4bdbb353c4687db"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/ms@2.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "10f0f9ab5b97c85c49a42acb9c27359c79eade039ae83641a1c008888d93692080ed5089d5424331a802cc891736c5187c3d5d68afff2d3110f318886eb1ed73"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/util-deprecate@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/util-deprecate@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "validator",
+      "version": "13.9.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "07e7461bc5377ddb4cd3f68d2b8fd7f025eafc473153658facf124246b256f8eeac87b3199b8204d62b4c84038aa7615345fa7c4d94df3ca35e2121c3e648810"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/validator@13.9.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/validator@13.9.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9784a9fc346c7a8afdc0be84bd5dbe4ee427eb774c90f8d9feca7d5e48214c46d5f4a94f4b5c54b19deeeff2103b8c31b5c141e1b82940f45c477402bdeccf71"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/wrappy@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/wrappy@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "yallist",
+      "version": "4.0.0",
+      "description": "",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "df074689d672ab93c1d3ce172c44b94e9392440df08d7025216321ba6da445cbffe354a7d9e990d1dc9c416e2e6572de8f02af83a12cbdb76554bf8560472dec"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:npm/yallist@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/yallist@4.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/Users/Ajmal.Kottilingal/dev/nodejs-test/package-lock.json"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/@ajmalab/nodejs-test@1.0.0",
+      "dependsOn": [
+        "pkg:npm/smee-client@1.2.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/asap@2.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/asynckit@0.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/basic-auth@2.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/call-bind@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/combined-stream@1.0.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/commander@2.20.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/component-emitter@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cookiejar@2.1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debug@2.6.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/delayed-stream@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/depd@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/dezalgo@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ee-first@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/eventsource@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/fast-safe-stringify@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/form-data@4.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/formidable@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/function-bind@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/get-intrinsic@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has-proto@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/has-symbols@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/hexoid@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/inherits@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lru-cache@6.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/methods@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mime@2.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mime-db@1.52.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mime-types@2.1.35",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/morgan@1.10.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/object-inspect@1.12.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/on-finished@2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/on-headers@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/once@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/qs@6.11.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/readable-stream@3.6.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/semver@7.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/side-channel@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/smee-client@1.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/string_decoder@1.3.0",
+      "dependsOn": [
+        "pkg:npm/safe-buffer@5.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/superagent@7.1.5",
+      "dependsOn": [
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/ms@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/debug@4.3.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/util-deprecate@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/validator@13.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/wrappy@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/yallist@4.0.0",
+      "dependsOn": []
+    }
+  ]
+}
